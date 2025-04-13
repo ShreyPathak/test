@@ -1,0 +1,50 @@
+.bank-ifcs-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bank-ifcs-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.bank-ifcs-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.bank-ifcs-dropdown:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 5px rgba(0, 115, 170, 0.5);
+}
+
+@media (max-width: 480px) {
+    .bank-ifcs-container {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .bank-ifcs-dropdown {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .bank-ifcs-container label {
+        font-size: 14px;
+    }
+}
